@@ -120,7 +120,7 @@ main h2{
     #newTaskInput{
         width: 15rem;
         height: 2rem;
-        border-radius: 3px;
+        border-radius: 8px;
         border: none;
         font-size: 10px;
         /* padding-left: 10px; */
@@ -149,7 +149,7 @@ main h2{
         margin-right: 20px;
     }
     .edit{
-        width: 4rem;
+        width: 3rem;
         height: 2rem;
         background: linear-gradient(#495C60, white, #495C60);
         border-radius: 8px;
@@ -159,13 +159,22 @@ main h2{
         
     }
     .delete{
-        width: 4rem;
+        width: 3rem;
         height: 2rem;
         background: linear-gradient(#495C60, white, #495C60);
         border-radius: 8px;
         border: none;
         font-size: 10px;
         
+    }
+    .actions{
+        display: flex;
+        margin-left: 2rem;
+        border: none;
+        flex-direction: row;
+        
+    
+    
     }
     
 

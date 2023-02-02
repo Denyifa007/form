@@ -116,3 +116,58 @@ main h2{
     color: orange;
     font-size: 19px;
 }
+@media (max-width: 425px){
+    #newTaskInput{
+        width: 15rem;
+        height: 2rem;
+        border-radius: 3px;
+        border: none;
+        font-size: 10px;
+        /* padding-left: 10px; */
+        color: black;
+        font-weight: 600;
+        flex-direction: column;
+    }
+    #Submit{
+        width: 7rem;
+        height: 2rem;
+        border-radius: 8px;
+        border: none;
+        font-size: 10px;
+        background: linear-gradient(#495C60, white, #495C60);
+        
+        
+    }.text, .content{
+        width: 15rem;
+        height: 2rem;
+        border-radius: 8px;
+        border: none;
+        padding-left: 10px;
+        font-size: 10px;
+        font-weight: 500;
+        color: black;
+        margin-right: 20px;
+    }
+    .edit{
+        width: 4rem;
+        height: 2rem;
+        background: linear-gradient(#495C60, white, #495C60);
+        border-radius: 8px;
+        border: none;
+        font-size: 10px;
+        margin-right: 10px;
+        
+    }
+    .delete{
+        width: 4rem;
+        height: 2rem;
+        background: linear-gradient(#495C60, white, #495C60);
+        border-radius: 8px;
+        border: none;
+        font-size: 10px;
+        
+    }
+    
+
+    
+}

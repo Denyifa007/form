@@ -119,7 +119,7 @@ main h2{
 @media (max-width: 425px){
     #newTaskInput{
         width: 15rem;
-        height: 2rem;
+        height: 3rem;
         border-radius: 8px;
         border: none;
         font-size: 10px;
@@ -130,7 +130,7 @@ main h2{
     }
     #Submit{
         width: 7rem;
-        height: 2rem;
+        height: 3rem;
         border-radius: 8px;
         border: none;
         font-size: 10px;
@@ -139,7 +139,7 @@ main h2{
         
     }.text, .content{
         width: 15rem;
-        height: 2rem;
+        height: 3rem;
         border-radius: 8px;
         border: none;
         padding-left: 10px;
@@ -150,7 +150,7 @@ main h2{
     }
     .edit{
         width: 3rem;
-        height: 2rem;
+        height: 3rem;
         background: linear-gradient(#495C60, white, #495C60);
         border-radius: 8px;
         border: none;
@@ -160,7 +160,7 @@ main h2{
     }
     .delete{
         width: 3rem;
-        height: 2rem;
+        height: 3rem;
         background: linear-gradient(#495C60, white, #495C60);
         border-radius: 8px;
         border: none;

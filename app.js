@@ -12,8 +12,6 @@ form.addEventListener('submit', (e) =>{
         alert('input fied must not be empty')
         
     } else {
-        console.log('happy');
-    }
     // creating div's and input fields
     // creating div with class of task
     const taskElement = document.createElement('div')
@@ -45,22 +43,23 @@ form.addEventListener('submit', (e) =>{
     taskElement.appendChild(taskContentElement)
     taskElement.appendChild(taskActionsElemnet)
     listElement.appendChild(taskElement)
-    input.value = ''
+    input.value=''
 
     taskEditElement.addEventListener('click', ()=> {
         if (taskEditElement.innerText === 'Edit') {
             taskInputElement.removeAttribute('readonly')
-            taskEditElement.innerText = 'save'
+            taskEditElement.innerText = 'Save'
             
         } else {
             taskInputElement.setAttribute('readonly', 'readonly')
-            taskEditElement.innerText = 'edit'
+            taskEditElement.innerText = 'Edit'
         }
     })
 
     taskDeleteElement.addEventListener('click', function(){
         listElement.removeChild(taskElement)
     })
+}
     
 
 })

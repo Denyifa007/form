@@ -169,6 +169,7 @@ main h2{
     }
     .actions{
         display: flex;
+        justify-content: flex-end;
         margin-left: 2rem;
         border: none;
         flex-direction: row;

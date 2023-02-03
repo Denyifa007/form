@@ -10,8 +10,9 @@ form.addEventListener('submit', (e) =>{
     const task = input.value
     if (!task) {
         alert('input fied must not be empty')
+        return;
         
-    } else {
+    } 
     // creating div's and input fields
     // creating div with class of task
     const taskElement = document.createElement('div')
@@ -59,7 +60,7 @@ form.addEventListener('submit', (e) =>{
     taskDeleteElement.addEventListener('click', function(){
         listElement.removeChild(taskElement)
     })
-}
+
     
 
 })

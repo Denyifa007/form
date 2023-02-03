@@ -52,8 +52,8 @@ header{
 }
 #Submit:hover{
     background-color: blue;
-    color: orange;
-    font-size: 16px;
+    color: green;
+    font-size: 19px;
 }
 main h2{
     display: flex;
@@ -99,7 +99,7 @@ main h2{
 }
 .edit:hover{
     background-color: blue;
-    color: orange;
+    color: green;
     font-size: 19px;
 }
 .delete{
@@ -113,7 +113,7 @@ main h2{
 }
 .delete:hover{
     background-color: blue;
-    color: orange;
+    color: green;
     font-size: 19px;
 }
 @media (max-width: 425px){
